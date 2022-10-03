@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+	<title>Julian Bundy</title>
+	<link href='styles.css' rel='stylesheet'>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<script src='jquery-3.2.1.min.js'></script>
+	<script src='java.js'></script>
+</head>
+<body>
+	<div id='topMenu' style='top: -200px' value=0>
+		<div>
+			<button class='menuTab' value=1260>About Me</button>
+		</div>
+		<div>
+			<button class='menuTab' value=1870>My Project History</button>
+		</div>
+		<div>
+			<button class='menuTab' value=2480>My Skillset</button>
+		</div>
+		<div>
+			<button class='menuTab' value=3090>Contact Me</button>
+		</div>
+		<div><img id='homeButton' src='images/LogoV1.png' width=50px height=50px alt='Logo' title='Back to Home' alt='Back to home' value=0><img id='menuButton' width=50px height=50px src='images/MenuButtonV1.png' alt='Open menu'></div>
+	</div>
+	<section id='home'>
+		<h1>Julian Bundy</h1>
+		<h2>Aspiring Front-End Developer</h2>
+	</section>
+	<section id='aboutMe'>
+		<h3>About Me</h3>
+		<div class='imgBox'>
+			<img id='portrait' src='images/portrait.jpg' height=80% alt='Portrait of me'>
+			<div id='backdrop'></div>
+		</div>
+		<p id='bio'>Hello! I'm Julian Bundy and I enjoy creating interactive content for the web. My interest in programming began in 2014 when I began delving into Lua to create simple elements for simple games. It became my biggest interest when I changed my major to Media Arts & Game Technology at University of Wisconsin - Whitewater.</p>
+	</section>
+	<section id='projectHistory'>
+		<h3>My Project History</h3>
+		<div class='contentWindow'>
+			<div class='tabBar'>
+				<button class='project' value=0 style='background-color: #003366'>This Portfolio</button>
+				<button class='project' value=1>Currency Exchange</button>
+				<button class='project' value=2>MediaMax</button>
+			</div>
+			<div id='projectContent'>
+				<p><b>Languages used:</b> HTML, CSS, Javascript<br><br>This portfolio that you're looking over is a combination of HTML content, CSS styling, and JavaScript functionality.
+				<br><br>Over the course of a month, I planned out the layout and sitemap, created and stylized the presentation, and coded in functionality like the navigation menu above you.
+				<br><br>One of the biggest challenges I faced during this project was handling the layout when most elements would start on a new line regardless of attributes. And then came the problem of how to add other projects without interfering with their structure.</p>
+			</div>
+		</div>	
+	</section>
+	<section id='skillset'>
+		<h3>My Skillset</h3>
+		<div class='contentWindow'>
+			<div class='tabBar'>
+				<button class='toolbox' value=0 style='background-color: #003366'>HTML</button>
+				<button class='toolbox' value=1>CSS</button>
+				<button class='toolbox' value=2>Javascript</button>
+				<button class='toolbox' value=3>PHP</button>
+				<button class='toolbox' value=4>C++</button>
+			</div>
+			<p id='skillsetContent'><b>Proficiency:</b> 4/5<br><br>HTML is the language used to create the content of a webpage, like the text you're reading now.
+			<br>All my projects that utilize the web browser is based in HTML, making it the most important language of development.</p>
+		</div>
+	</section>
+	<section id='contactMe'>
+		<h3>Contact Me</h3>
+		<br>
+		<p><b>Name:</b> Julian Bundy</p>
+		<p><b>eMail:</b> juliangbundy@icloud.com</p>
+		<p><b>Phone:</b> (608)515-7477</p>
+	</section>
+</body>
+</html>
